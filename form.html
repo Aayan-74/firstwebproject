@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--Always declare the document type as the first line in your document-->
+<html lang="en-us">
+    <!--You should always include the lang attribute inside the <html> tag, to declare the language of the Web page.​-->
+    <!--make sure that the HTML and body tags are in your webpage-->
+<head>
+    <meta charset="utf-8"/>
+    <!--You should include the following <meta> element in all your web pages to give the browser instructions on how to control the page's dimensions and scaling.​-->
+    <!--To ensure proper interpretation and correct search engine indexing, the character encoding should be defined as early as possible in an HTML document.​-->
+    <!--You should include the following <meta> element in all your web pages to give the browser instructions on how to control the page's dimensions and scaling.​-->
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=yes"/>
+    <title>Form</title>
+    <!--Defines a title in the browser toolbar.​
+
+Provides a title for the page when it is added to favorites.​
+
+Displays a title for the page in search-engine results.​-->
+</head>
+<body>
+    <form>
+        <fieldset>
+        <legend>Choose your favourite NBA player</legend>
+        <input type="radio" id="Lebron James" name="NBA player">
+        <label for="Lebron James">Lebron</label><br/>
+        <input type="radio" id="Kevin Durant" name="NBA player">
+        <label for="Kevin Durant">Kevin Durant</label><br/>
+        <input type="radio" id="Kobe Bryant" name="NBA Player">
+        <label for="Kobe Bryant">Kobe Bryant</label><br/>
+        <input type="submit" value="Submit">
+    </form>
+    <br/>
+    <br/>
+    <br/>
+    <fieldset form="Greatest Basketball Players of all time suggestion" name="Greatest Basketball Players of all time">
+        <legend>
+        What Basketball Players you are suggesting are the Greatest of all time:
+        </legend>
+        <input type="checkbox"
+        name="Kobe Bryant"
+        id="Kobe Bryant"
+        value="Kobe"
+        />
+        <label for="Kobe Bryant">Kobe Bryant the Black Mamba</label>
+        <br />
+        <input type="checkbox" name="Lebron James" id="Lebron James" value="Lebron James" />
+        <label for="Lebron James">The King</label>
+        <br />
+        <input type="checkbox" name="Michael Jordan" id="Michael Jordan" value="Michael Jordan" />
+        <label for="Michael Jordan">Air Jordan</label>
+        <br/>
+        <label for="story">Tell us your story></label>
+        <textarea name="story" id="story"
+        rows="20" cols="100">
+    </textarea>
+    </body>
+</html>
+
